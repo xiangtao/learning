@@ -19,9 +19,10 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <flink.version>1.10.0</flink.version>
+    <flink.version>1.11.0</flink.version>
     <java.version>1.8</java.version>
     <scala.binary.version>2.11</scala.binary.version>
+    <common-beanutils.version>1.9.4</common-beanutils.version>
   </properties>
 
   <dependencies>
@@ -30,20 +31,56 @@
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-java</artifactId>
       <version>${flink.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.flink</groupId>
-      <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
-      <version>${flink.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
       <version>${flink.version}</version>
-      <scope>test</scope>
-      <type>test-jar</type>
+      <scope>provided</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-clients_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-statebackend-rocksdb_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-connector-twitter_2.11</artifactId>
+      <version>${flink.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-connector-kafka_2.11</artifactId>
+      <version>${flink.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-clients_2.11</artifactId>
+      <version>${flink.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-api-java</artifactId>
+      <version>${flink.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
 
     <!-- test dependencies -->
     <dependency>
@@ -53,25 +90,68 @@
       <scope>test</scope>
     </dependency>
 
-    <!--日志-->
-    <!--    <dependency>-->
-    <!--      <groupId>org.slf4j</groupId>-->
-    <!--      <artifactId>slf4j-log4j12</artifactId>-->
-    <!--      <version>1.7.7</version>-->
-    <!--      <scope>runtime</scope>-->
-    <!--    </dependency>-->
-    <!--    <dependency>-->
-    <!--      <groupId>log4j</groupId>-->
-    <!--      <artifactId>log4j</artifactId>-->
-    <!--      <version>1.2.17</version>-->
-    <!--      <scope>runtime</scope>-->
-    <!--    </dependency>-->
+
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>${common-beanutils.version}</version>
+    </dependency>
 
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+    </dependency>
   </dependencies>
+
+  <repositories>
+    <repository>
+      <id>alimaven</id>
+      <name>aliyun maven</name>
+      <url>https://maven.aliyun.com/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+          <archive>
+            <manifest>
+              <mainClass></mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>

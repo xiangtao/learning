@@ -35,7 +35,7 @@ public class WordCount {
         }
         return out.iterator();
       }
-    }).keyBy(0).sum(1);
+    }).setParallelism(3).keyBy(0).sum(1);
 
     // sink
     dataStream.print();
