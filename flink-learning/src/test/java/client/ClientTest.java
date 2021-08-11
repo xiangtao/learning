@@ -26,7 +26,7 @@ public class ClientTest {
 
     CliFrontend frontend = new CliFrontend(
         configuration,
-        Collections.singletonList(new DefaultCLI(configuration)));
+        Collections.singletonList(new DefaultCLI()));
 
     String[] arguments = {
         "--classpath", "file:///tmp/foo",

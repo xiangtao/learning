@@ -4,8 +4,8 @@ import io.learning.flink.utils.JsonUtils;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-import org.apache.kafka.clients.producer.KafkaProducer;
-import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.flink.kafka.shaded.org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.flink.kafka.shaded.org.apache.kafka.clients.producer.ProducerRecord;
 
 public class KafkaUtils {
 
