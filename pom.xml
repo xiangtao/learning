@@ -33,9 +33,9 @@
     <java.version>1.8</java.version>
     <junit.version>4.12</junit.version>
     <fastjson.version>1.2.58</fastjson.version>
-    <jackson2.version>2.9.9</jackson2.version>
+    <jackson2.version>2.10.5</jackson2.version>
     <guava.version>19.0</guava.version>
-    <mysql.connector.version>5.1.38</mysql.connector.version>
+    <mysql.connector.version>5.1.49</mysql.connector.version>
     <java.mail.version>1.4</java.mail.version>
     <commons-jexl.version>2.1.1</commons-jexl.version>
     <mockito-all.version>1.10.19</mockito-all.version>
@@ -47,7 +47,7 @@
     <hive.version>1.2.2</hive.version>
     <impala.jdbc.version>2.6.4</impala.jdbc.version>
     <skywalking.version>6.0.0-GA</skywalking.version>
-    <slf4j.version>1.7.5</slf4j.version>
+    <slf4j.version>1.7.25</slf4j.version>
     <log4j.version>1.2.9</log4j.version>
     <lombok.version>1.16.8</lombok.version>
 

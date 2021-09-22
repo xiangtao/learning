@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.api.common.time.Time;
@@ -45,6 +46,9 @@ public class FlinkKafkaLearning {
         inputProps);
     DataStreamSource<Tuple2<String, String>> dataStreamSource = env.addSource(flinkKafkaConsumer)
         .setParallelism(baseConfig.getKafkaSourceDefaultParallelism());
+
+    dataStreamSource.shuffle();
+
     dataStreamSource.print(); //把从 kafka 读取到的数据打印在控制台
 
     System.out.println("start to startup...");

@@ -46,7 +46,7 @@ public class JsonUtils {
 			if (json == null) {
 				return null;
 			}
-			return objectMapper.readValue(json, typeReference);
+			return (T) objectMapper.readValue(json, typeReference);
 		} catch (IOException e) {
 			log.error("parse json failed.", e);
 			return null;

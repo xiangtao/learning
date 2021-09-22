@@ -21,7 +21,7 @@ public class TestBinlog {
 //                EventDeserializer.CompatibilityMode.CHAR_AND_BINARY_AS_BYTE_ARRAY
 //        );
     client.setEventDeserializer(eventDeserializer);
-    client.setServerId(654321);
+    client.setServerId(6543213);
     client.setHeartbeatInterval(500);
     client.registerEventListener(new BinaryLogClient.EventListener() {
       @Override
@@ -44,6 +44,11 @@ public class TestBinlog {
         }
       }
     });
+
+    client.setGtidSet("a5086c24-90f4-11ea-b66a-4fe6963a633f:1-3203:3205-3205");
+    client.setBinlogFilename("mysql-bin.000023");
+//    client.setBinlogPosition(9281L);
+//    client.setUseBinlogFilenamePositionInGtidMode(true);
     client.connect();
   }
 }

@@ -14,7 +14,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <debezium.version>1.4.1.Final</debezium.version>
+    <debezium.version>1.5.2.Final</debezium.version>
+    <slf4j.version>1.7.25</slf4j.version>
+    <log4j.version>1.2.9</log4j.version>
   </properties>
 
   <dependencies>
@@ -22,18 +24,39 @@
       <groupId>io.debezium</groupId>
       <artifactId>debezium-embedded</artifactId>
       <version>${debezium.version}</version>
-      <!--<exclusions>
+      <exclusions>
         <exclusion>
           <artifactId>kafka-log4j-appender</artifactId>
           <groupId>org.apache.kafka</groupId>
         </exclusion>
-      </exclusions>-->
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>io.debezium</groupId>
       <artifactId>debezium-connector-mysql</artifactId>
       <version>${debezium.version}</version>
     </dependency>
+
+    <!-- SLF4J -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+
+    <!-- Log4j -->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>${log4j.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

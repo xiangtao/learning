@@ -45,12 +45,9 @@ public class HotItems {
         // 创建 PojoCsvInputFormat
         PojoCsvInputFormat<UserBehavior> csvInput = new PojoCsvInputFormat<>(filePath, pojoType, fieldOrder);
 
-
         DataStream<UserBehavior> dataSource = env.createInput(csvInput, pojoType);
 
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
-
-
 
         DataStream<UserBehavior> timedData = dataSource
                 .assignTimestampsAndWatermarks(new AscendingTimestampExtractor<UserBehavior>() {
@@ -67,7 +64,6 @@ public class HotItems {
                 return userBehavior.getBehavior().equalsIgnoreCase("pv");
             }
         });
-
 
         DataStream<ItemViewCount> windowedData = pvData
                 .keyBy("itemId")

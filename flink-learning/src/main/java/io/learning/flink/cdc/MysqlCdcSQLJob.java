@@ -35,7 +35,7 @@ public class MysqlCdcSQLJob {
           + "  'username' = 'root',\n"
           + "  'password' = 'root',\n"
           + "  'database-name' = 'flink_sql',\n"
-          + "  'table-name' = 'orders'\n"
+          + "  'table-name' = 'orders2'\n"
           + ")";
       tableEnv.executeSql(ddl1);
 

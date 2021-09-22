@@ -72,7 +72,7 @@ public class CheckpointUtil {
      * @throws IOException
      */
     public static void setConfYamlStateBackend(StreamExecutionEnvironment env) {
-        env.enableCheckpointing(TimeUnit.MINUTES.toMillis(3));
+        env.enableCheckpointing(TimeUnit.MINUTES.toMillis(1));
 
         CheckpointConfig checkpointConf = env.getCheckpointConfig();
         checkpointConf.setMinPauseBetweenCheckpoints(TimeUnit.SECONDS.toMillis(50));
