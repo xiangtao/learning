@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.learning</groupId>
+    <artifactId>learning</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <groupId>org.taox</groupId>
+  <artifactId>flink-learning-2</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>flink-learning-2</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <flink.version>1.13.1</flink.version>
+    <java.version>1.8</java.version>
+    <scala.binary.version>2.11</scala.binary.version>
+    <common-beanutils.version>1.9.4</common-beanutils.version>
+    <debezium.version>1.5.2.Final</debezium.version>
+    <scope>compile</scope>
+    <flink.cdc.version>2.0.1</flink.cdc.version>
+    <flink.hudi.version>0.12.0</flink.hudi.version>
+  </properties>
+
+  <profiles>
+  </profiles>
+
+  <dependencies>
+    <!-- Apache Flink dependencies -->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-java</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-clients_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-statebackend-rocksdb_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-connector-twitter_2.11</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-sql-connector-kafka_2.11</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-json</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-clients_2.11</artifactId>
+      <version>${flink.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-api-java</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-api-java-bridge_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-api-scala-bridge_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-planner-blink_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>slf4j-api</artifactId>
+          <groupId>org.slf4j</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-planner_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-sql-connector-hive-2.2.0_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-runtime-web_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+
+    <!-- koolearn connector -->
+    <!--<dependency>
+      <groupId>com.koolearn.data.flink</groupId>
+      <artifactId>flink-connector-rocketmq</artifactId>
+      <version>1.12-SNAPSHOT</version>
+      <scope>${scope}</scope>
+    </dependency>-->
+    <dependency>
+      <groupId>com.koolearn.data.flink</groupId>
+      <artifactId>flink-custom-json</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <scope>${scope}</scope>
+    </dependency>
+    <!--<dependency>
+      <groupId>com.koolearn.data.flink</groupId>
+      <artifactId>flink-custom-canal-json</artifactId>
+      <version>1.12-SNAPSHOT</version>
+      <scope>${scope}</scope>
+    </dependency>-->
+
+
+    <!-- flink cdc connector-->
+    <dependency>
+      <groupId>com.ververica</groupId>
+      <artifactId>flink-connector-mysql-cdc</artifactId>
+      <version>${flink.cdc.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+    <!--<dependency>
+      <groupId>io.debezium</groupId>
+      <artifactId>debezium-embedded</artifactId>
+      <version>${debezium.version}</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>kafka-log4j-appender</artifactId>
+          <groupId>org.apache.kafka</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>io.debezium</groupId>
+      <artifactId>debezium-connector-mysql</artifactId>
+      <version>${debezium.version}</version>
+    </dependency>-->
+
+
+    <!-- flink jdbc connector-->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-connector-jdbc_2.11</artifactId>
+      <version>${flink.version}</version>
+      <scope>${scope}</scope>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.49</version>
+    </dependency>
+
+    <!-- Flink 1.15 -->
+    <dependency>
+      <groupId>org.apache.hudi</groupId>
+      <artifactId>hudi-flink1.15-bundle</artifactId>
+      <version>${flink.hudi.version}</version>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+    <!--<dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.5</version>
+      <exclusions>
+        <exclusion>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>-->
+
+    <!-- SLF4J -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+    </dependency>
+
+    <!-- Log4j -->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+    </dependency>
+
+
+
+    <!-- test dependencies -->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-test-utils_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-client</artifactId>
+      <version>2.6.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>${common-beanutils.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+    <!--<dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+    </dependency>-->
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>alimaven</id>
+      <name>aliyun maven</name>
+      <url>https://maven.aliyun.com/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+          <archive>
+            <manifest>
+              <mainClass></mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

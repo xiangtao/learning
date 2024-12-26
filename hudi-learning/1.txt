@@ -1,0 +1,937 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.learning:hudi-learning:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 149, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< io.learning:hudi-learning >----------------------
+[INFO] Building hudi-learning 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.10.0/hadoop-common-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.10.0/hadoop-common-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.10.0/hadoop-project-dist-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.10.0/hadoop-project-dist-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.10.0/hadoop-project-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.10.0/hadoop-project-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.10.0/hadoop-main-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.10.0/hadoop-main-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.10.0/hadoop-annotations-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.10.0/hadoop-annotations-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-parent/10/jetty-parent-10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-parent/10/jetty-parent-10.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-parent/7/jetty-parent-7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-parent/7/jetty-parent-7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.10.0/hadoop-auth-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.10.0/hadoop-auth-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.41.1/nimbus-jose-jwt-4.41.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.41.1/nimbus-jose-jwt-4.41.1.pom (0 B at 0 B/s)
+Downloading from Maven Central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+Downloading from cloudera-repo-releases: https://repository.cloudera.com/artifactory/public/net/minidev/json-smart/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
+Progress (1): 1.3 kB                    Downloaded from Maven Central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml (1.3 kB at 2.0 kB/s)
+Downloading from dynamodb-local-oregon: https://s3-us-west-2.amazonaws.com/dynamodb-local/release/net/minidev/json-smart/maven-metadata.xml
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml (1.3 kB at 862 B/s)
+Downloading from apache.snapshots.https: https://repository.apache.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+Progress (1): 1.3 kB                    Downloading from repository.jboss.org: https://repository.jboss.org/nexus/content/groups/public/net/minidev/json-smart/maven-metadata.xml
+Downloaded from cloudera-repo-releases: https://repository.cloudera.com/artifactory/public/net/minidev/json-smart/maven-metadata.xml (1.3 kB at 575 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.1/json-smart-1.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.1/json-smart-1.3.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/parent/1.3.1/parent-1.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/parent/1.3.1/parent-1.3.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.2/json-smart-1.3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.2/json-smart-1.3.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/parent/1.3.2/parent-1.3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/parent/1.3.2/parent-1.3.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.3/json-smart-1.3.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.3/json-smart-1.3.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC1/json-smart-2.0-RC1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC1/json-smart-2.0-RC1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC1/parent-2.0-RC1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC1/parent-2.0-RC1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/asm/1.0-RC1/asm-1.0-RC1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/asm/1.0-RC1/asm-1.0-RC1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC2/json-smart-2.0-RC2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC2/json-smart-2.0-RC2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC2/parent-2.0-RC2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC2/parent-2.0-RC2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC3/json-smart-2.0-RC3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC3/json-smart-2.0-RC3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC3/parent-2.0-RC3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC3/parent-2.0-RC3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/asm/1.0-RC3/asm-1.0-RC3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/asm/1.0-RC3/asm-1.0-RC3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0/json-smart-2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0/json-smart-2.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.0/parent-2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.0/parent-2.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/asm/1.0/asm-1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/asm/1.0/asm-1.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.1.0/json-smart-2.1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.1.0/json-smart-2.1.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.1.0/parent-2.1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/parent/2.1.0/parent-2.1.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/asm/1.0.2/asm-1.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/asm/1.0.2/asm-1.0.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.1.1/json-smart-2.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.1.1/json-smart-2.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.2/json-smart-2.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.2/json-smart-2.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/minidev-parent/2.2/minidev-parent-2.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/minidev-parent/2.2/minidev-parent-2.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/1.1/accessors-smart-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/1.1/accessors-smart-1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.2.1/json-smart-2.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.2.1/json-smart-2.2.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/minidev-parent/2.3/minidev-parent-2.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/minidev-parent/2.3/minidev-parent-2.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.6/slf4j-parent-1.7.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.6/slf4j-parent-1.7.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/htrace/htrace/4.1.0-incubating/htrace-4.1.0-incubating.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/htrace/htrace/4.1.0-incubating/htrace-4.1.0-incubating.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-hadoop-compat/2.4.9/hbase-hadoop-compat-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-hadoop-compat/2.4.9/hbase-hadoop-compat-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-metrics-api/2.4.9/hbase-metrics-api-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-metrics-api/2.4.9/hbase-metrics-api-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-hadoop2-compat/2.4.9/hbase-hadoop2-compat-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-hadoop2-compat/2.4.9/hbase-hadoop2-compat-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-metrics/2.4.9/hbase-metrics-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-metrics/2.4.9/hbase-metrics-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/3.2.6/metrics-core-3.2.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/3.2.6/metrics-core-3.2.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/3.2.6/metrics-parent-3.2.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/3.2.6/metrics-parent-3.2.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.22/slf4j-parent-1.7.22.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.22/slf4j-parent-1.7.22.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.0/all-1.2.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.0/all-1.2.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-protocol-shaded/2.4.9/hbase-protocol-shaded-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-protocol-shaded/2.4.9/hbase-protocol-shaded-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-protocol/2.4.9/hbase-protocol-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-protocol/2.4.9/hbase-protocol-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.7/zookeeper-3.5.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.7/zookeeper-3.5.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/parent/3.5.7/parent-3.5.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/parent/3.5.7/parent-3.5.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.7/zookeeper-jute-3.5.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.7/zookeeper-jute-3.5.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.45.Final/netty-parent-4.1.45.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.45.Final/netty-parent-4.1.45.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/1.0.55/jcodings-1.0.55.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/1.0.55/jcodings-1.0.55.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jruby/joni/joni/2.1.31/joni-2.1.31.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jruby/joni/joni/2.1.31/joni-2.1.31.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/1.0.46/jcodings-1.0.46.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/1.0.46/jcodings-1.0.46.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-server/2.4.9/hbase-server-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-server/2.4.9/hbase-server-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-http/2.4.9/hbase-http-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-http/2.4.9/hbase-http-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-jetty/3.5.1/hbase-shaded-jetty-3.5.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-jetty/3.5.1/hbase-shaded-jetty-3.5.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-jersey/3.5.1/hbase-shaded-jersey-3.5.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-jersey/3.5.1/hbase-shaded-jersey-3.5.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/jakarta/annotation/ca-parent/1.3.5/ca-parent-1.3.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/annotation/ca-parent/1.3.5/ca-parent-1.3.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.5/project-1.0.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.5/project-1.0.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.6.1/external-2.6.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.6.1/external-2.6.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.6.1/hk2-parent-2.6.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.6.1/hk2-parent-2.6.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-procedure/2.4.9/hbase-procedure-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-procedure/2.4.9/hbase-procedure-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-zookeeper/2.4.9/hbase-zookeeper-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-zookeeper/2.4.9/hbase-zookeeper-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-replication/2.4.9/hbase-replication-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-replication/2.4.9/hbase-replication-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.10.0/hadoop-mapreduce-client-core-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.10.0/hadoop-mapreduce-client-core-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.10.0/hadoop-mapreduce-client-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.10.0/hadoop-mapreduce-client-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.10.0/hadoop-yarn-client-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.10.0/hadoop-yarn-client-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.10.0/hadoop-yarn-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.10.0/hadoop-yarn-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.10.0/hadoop-yarn-api-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.10.0/hadoop-yarn-api-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.10.0/hadoop-yarn-common-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.10.0/hadoop-yarn-common-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-asyncfs/2.4.9/hbase-asyncfs-2.4.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-asyncfs/2.4.9/hbase-asyncfs-2.4.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs/2.10.0/hadoop-hdfs-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs/2.10.0/hadoop-hdfs-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.10.0/hadoop-hdfs-client-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.10.0/hadoop-hdfs-client-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/2.7.5/okhttp-2.7.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/2.7.5/okhttp-2.7.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/parent/2.7.5/parent-2.7.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/parent/2.7.5/parent-2.7.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.6.0/okio-parent-1.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.6.0/okio-parent-1.6.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/leveldbjni/leveldbjni-project/1.8/leveldbjni-project-1.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/leveldbjni/leveldbjni-project/1.8/leveldbjni-project-1.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/fusesource-pom/1.9/fusesource-pom-1.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/fusesource-pom/1.9/fusesource-pom-1.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/web/javax.servlet.jsp/2.3.2/javax.servlet.jsp-2.3.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/web/javax.servlet.jsp/2.3.2/javax.servlet.jsp-2.3.2.pom (0 B at 0 B/s)
+Downloading from cloudera-repo-releases: https://repository.cloudera.com/artifactory/public/org/glassfish/javax.el/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/glassfish/javax.el/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/maven-metadata.xml
+Downloading from Maven Central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/maven-metadata.xml
+Progress (1): 987 B                   Downloaded from Maven Central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/maven-metadata.xml (987 B at 3.6 kB/s)
+Downloading from jvnet-nexus-snapshots: https://maven.java.net/content/repositories/snapshots/org/glassfish/javax.el/maven-metadata.xml
+Progress (1): 987 BProgress (2): 987 B | 1.0 kB                            Downloaded from cloudera-repo-releases: https://repository.cloudera.com/artifactory/public/org/glassfish/javax.el/maven-metadata.xml (1.0 kB at 1.1 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/maven-metadata.xml (987 B at 809 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b01/javax.el-3.0.1-b01.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b01/javax.el-3.0.1-b01.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b02/javax.el-3.0.1-b02.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b02/javax.el-3.0.1-b02.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b03/javax.el-3.0.1-b03.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b03/javax.el-3.0.1-b03.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b04/javax.el-3.0.1-b04.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b04/javax.el-3.0.1-b04.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b05/javax.el-3.0.1-b05.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b05/javax.el-3.0.1-b05.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b06/javax.el-3.0.1-b06.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b06/javax.el-3.0.1-b06.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b07/javax.el-3.0.1-b07.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b07/javax.el-3.0.1-b07.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b08/javax.el-3.0.1-b08.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b08/javax.el-3.0.1-b08.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b09/javax.el-3.0.1-b09.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b09/javax.el-3.0.1-b09.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b10/javax.el-3.0.1-b10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b10/javax.el-3.0.1-b10.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b11/javax.el-3.0.1-b11.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b11/javax.el-3.0.1-b11.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b12/javax.el-3.0.1-b12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b12/javax.el-3.0.1-b12.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.1/javax.servlet.jsp-api-2.3.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.1/javax.servlet.jsp-api-2.3.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.1/caffeine-2.8.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.1/caffeine-2.8.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.1.0/checker-qual-3.1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.1.0/checker-qual-3.1.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jamon/jamon-runtime/2.4.1/jamon-runtime-2.4.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jamon/jamon-runtime/2.4.1/jamon-runtime-2.4.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jamon/jamon-java-parent/2.4.1/jamon-java-parent-2.4.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jamon/jamon-java-parent/2.4.1/jamon-java-parent-2.4.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jamon/jamon-parent/2.4.1/jamon-parent-2.4.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jamon/jamon-parent/2.4.1/jamon-parent-2.4.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-distcp/2.10.0/hadoop-distcp-2.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-distcp/2.10.0/hadoop-distcp-2.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-timeline-service/0.12.0/hudi-timeline-service-0.12.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-timeline-service/0.12.0/hudi-timeline-service-0.12.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.17.2/log4j-2.17.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.17.2/log4j-2.17.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/5/logging-parent-5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/5/logging-parent-5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/24/apache-24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/24/apache-24.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-1.2-api/2.17.2/log4j-1.2-api-2.17.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-1.2-api/2.17.2/log4j-1.2-api-2.17.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/javalin/javalin/2.8.0/javalin-2.8.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/javalin/javalin/2.8.0/javalin-2.8.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.71/kotlin-stdlib-jdk8-1.2.71.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.71/kotlin-stdlib-jdk8-1.2.71.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.71/kotlin-stdlib-common-1.2.71.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.71/kotlin-stdlib-common-1.2.71.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.71/kotlin-stdlib-jdk7-1.2.71.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.71/kotlin-stdlib-jdk7-1.2.71.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.15.v20190215/jetty-server-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.15.v20190215/jetty-server-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.15.v20190215/jetty-project-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.15.v20190215/jetty-project-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.15.v20190215/jetty-http-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.15.v20190215/jetty-http-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.15.v20190215/jetty-util-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.15.v20190215/jetty-util-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.15.v20190215/jetty-io-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.15.v20190215/jetty-io-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.15.v20190215/jetty-webapp-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.15.v20190215/jetty-webapp-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.15.v20190215/jetty-xml-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.15.v20190215/jetty-xml-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.15.v20190215/jetty-servlet-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.15.v20190215/jetty-servlet-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.15.v20190215/jetty-security-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.15.v20190215/jetty-security-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.15.v20190215/websocket-server-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.15.v20190215/websocket-server-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.4.15.v20190215/websocket-parent-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.4.15.v20190215/websocket-parent-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.15.v20190215/websocket-common-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.15.v20190215/websocket-common-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.15.v20190215/websocket-api-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.15.v20190215/websocket-api-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.15.v20190215/websocket-client-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.15.v20190215/websocket-client-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.15.v20190215/jetty-client-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.15.v20190215/jetty-client-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.15.v20190215/websocket-servlet-9.4.15.v20190215.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.15.v20190215/websocket-servlet-9.4.15.v20190215.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.72/jcommander-1.72.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.72/jcommander-1.72.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/davidmoten/hilbert-curve/0.2.2/hilbert-curve-0.2.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/davidmoten/hilbert-curve/0.2.2/hilbert-curve-0.2.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/davidmoten/sonatype-parent/0.1/sonatype-parent-0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/davidmoten/sonatype-parent/0.1/sonatype-parent-0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/davidmoten/guava-mini/0.1.3/guava-mini-0.1.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/davidmoten/guava-mini/0.1.3/guava-mini-0.1.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-graphite/4.1.1/metrics-graphite-4.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-graphite/4.1.1/metrics-graphite-4.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.1/metrics-parent-4.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.1/metrics-parent-4.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.1/metrics-bom-4.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.1/metrics-bom-4.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/4.1.1/metrics-core-4.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/4.1.1/metrics-core-4.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.28/slf4j-parent-1.7.28.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.28/slf4j-parent-1.7.28.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-jmx/4.1.1/metrics-jmx-4.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-jmx/4.1.1/metrics-jmx-4.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient/0.8.0/simpleclient-0.8.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient/0.8.0/simpleclient-0.8.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/parent/0.8.0/parent-0.8.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/parent/0.8.0/parent-0.8.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_httpserver/0.8.0/simpleclient_httpserver-0.8.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_httpserver/0.8.0/simpleclient_httpserver-0.8.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_common/0.8.0/simpleclient_common-0.8.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_common/0.8.0/simpleclient_common-0.8.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_dropwizard/0.8.0/simpleclient_dropwizard-0.8.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_dropwizard/0.8.0/simpleclient_dropwizard-0.8.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_pushgateway/0.8.0/simpleclient_pushgateway-0.8.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_pushgateway/0.8.0/simpleclient_pushgateway-0.8.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-hive-sync/0.12.0/hudi-hive-sync-0.12.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-hive-sync/0.12.0/hudi-hive-sync-0.12.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-hadoop-mr/0.12.0/hudi-hadoop-mr-0.12.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-hadoop-mr/0.12.0/hudi-hadoop-mr-0.12.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-sync-common/0.12.0/hudi-sync-common-0.12.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-sync-common/0.12.0/hudi-sync-common-0.12.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-parent/1.8.2/avro-parent-1.8.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-parent/1.8.2/avro-parent-1.8.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-toplevel/1.8.2/avro-toplevel-1.8.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-toplevel/1.8.2/avro-toplevel-1.8.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.7/paranamer-parent-2.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.7/paranamer-parent-2.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.1.3/snappy-java-1.1.1.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.1.3/snappy-java-1.1.1.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-avro/1.10.1/parquet-avro-1.10.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-avro/1.10.1/parquet-avro-1.10.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet/1.10.1/parquet-1.10.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet/1.10.1/parquet-1.10.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-column/1.10.1/parquet-column-1.10.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-column/1.10.1/parquet-column-1.10.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-common/1.10.1/parquet-common-1.10.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-common/1.10.1/parquet-common-1.10.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-format/2.4.0/parquet-format-2.4.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-format/2.4.0/parquet-format-2.4.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-encoding/1.10.1/parquet-encoding-1.10.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-encoding/1.10.1/parquet-encoding-1.10.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-hadoop/1.10.1/parquet-hadoop-1.10.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-hadoop/1.10.1/parquet-hadoop-1.10.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-jackson/1.10.1/parquet-jackson-1.10.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/parquet/parquet-jackson/1.10.1/parquet-jackson-1.10.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/7.0.13/fastutil-7.0.13.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/7.0.13/fastutil-7.0.13.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.8/slf4j-parent-1.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.8/slf4j-parent-1.5.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-master/3.4/antlr-master-3.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-master/3.4/antlr-master-3.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/aggregate/jetty-all/7.6.0.v20120127/jetty-all-7.6.0.v20120127.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/aggregate/jetty-all/7.6.0.v20120127/jetty-all-7.6.0.v20120127.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/aggregate/jetty-aggregate-project/7.6.0.v20120127/jetty-aggregate-project-7.6.0.v20120127.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/aggregate/jetty-aggregate-project/7.6.0.v20120127/jetty-aggregate-project-7.6.0.v20120127.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/7.6.0.v20120127/jetty-project-7.6.0.v20120127.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/7.6.0.v20120127/jetty-project-7.6.0.v20120127.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/19/jetty-parent-19.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/19/jetty-parent-19.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.4/ST4-4.0.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.4/ST4-4.0.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.3/antlr-runtime-3.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.3/antlr-runtime-3.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-master/3.3/antlr-master-3.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-master/3.3/antlr-master-3.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+Downloading from datanucleus: http://www.datanucleus.org/downloads/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+Downloading from conjars: http://conjars.org/repo/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.1.1/hadoop-common-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.1.1/hadoop-common-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/3.1.1/hadoop-project-dist-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/3.1.1/hadoop-project-dist-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/3.1.1/hadoop-project-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/3.1.1/hadoop-project-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/3.1.1/hadoop-main-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/3.1.1/hadoop-main-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/3.1.1/hadoop-annotations-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/3.1.1/hadoop-annotations-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.3.19.v20170502/jetty-project-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.3.19.v20170502/jetty-project-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/25/jetty-parent-25.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/25/jetty-parent-25.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-configuration2/2.1.1/commons-configuration2-2.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-configuration2/2.1.1/commons-configuration2-2.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/re2j/re2j/1.1/re2j-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/re2j/re2j/1.1/re2j-1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/3.1.1/hadoop-auth-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/3.1.1/hadoop-auth-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/apache-curator/2.12.0/apache-curator-2.12.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/apache-curator/2.12.0/apache-curator-2.12.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-kerb/1.0.1/kerby-kerb-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-kerb/1.0.1/kerby-kerb-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-all/1.0.1/kerby-all-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-all/1.0.1/kerby-all-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-common/1.0.1/kerby-common-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-common/1.0.1/kerby-common-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/token-provider/1.0.1/token-provider-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-provider/1.0.1/kerby-provider-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-provider/1.0.1/kerby-provider-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/3.10/nimbus-jose-jwt-3.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/3.10/nimbus-jose-jwt-3.10.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kerby/kerby-xdr/1.0.1/kerby-xdr-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/3.1.1/hadoop-client-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/3.1.1/hadoop-client-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/3.1.1/hadoop-hdfs-client-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/3.1.1/hadoop-hdfs-client-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/3.1.1/hadoop-yarn-api-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/3.1.1/hadoop-yarn-api-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/3.1.1/hadoop-yarn-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/3.1.1/hadoop-yarn-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/3.1.1/hadoop-yarn-client-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/3.1.1/hadoop-yarn-client-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/3.1.1/hadoop-mapreduce-client-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/3.1.1/hadoop-mapreduce-client-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/3.1.1/hadoop-yarn-common-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/3.1.1/hadoop-yarn-common-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.8/jackson-module-jaxb-annotations-2.7.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.8/jackson-module-jaxb-annotations-2.7.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.7.8/jackson-jaxrs-json-provider-2.7.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.7.8/jackson-jaxrs-json-provider-2.7.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-providers/2.7.8/jackson-jaxrs-providers-2.7.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-providers/2.7.8/jackson-jaxrs-providers-2.7.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.7.8/jackson-jaxrs-base-2.7.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.7.8/jackson-jaxrs-base-2.7.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.1.1/hadoop-mapreduce-client-jobclient-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.1.1/hadoop-mapreduce-client-jobclient-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.1/hadoop-mapreduce-client-common-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.1/hadoop-mapreduce-client-common-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/4.0/guice-parent-4.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/4.0/guice-parent-4.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-guice/1.19/jersey-guice-1.19.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-guice/1.19/jersey-guice-1.19.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs/3.1.1/hadoop-hdfs-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs/3.1.1/hadoop-hdfs-3.1.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.3.19.v20170502/jetty-util-ajax-9.3.19.v20170502.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.3.19.v20170502/jetty-util-ajax-9.3.19.v20170502.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.0.52.Final/netty-parent-4.0.52.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.0.52.Final/netty-parent-4.0.52.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sql_2.11/2.4.4/spark-sql_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sql_2.11/2.4.4/spark-sql_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-parent_2.11/2.4.4/spark-parent_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-parent_2.11/2.4.4/spark-parent_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/univocity/univocity-parsers/2.7.3/univocity-parsers-2.7.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/univocity/univocity-parsers/2.7.3/univocity-parsers-2.7.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sketch_2.11/2.4.4/spark-sketch_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-sketch_2.11/2.4.4/spark-sketch_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-tags_2.11/2.4.4/spark-tags_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-tags_2.11/2.4.4/spark-tags_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/twitter/chill_2.11/0.9.3/chill_2.11-0.9.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/twitter/chill_2.11/0.9.3/chill_2.11-0.9.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/twitter/chill-java/0.9.3/chill-java-0.9.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/twitter/chill-java/0.9.3/chill-java-0.9.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-asm6-shaded/4.8/xbean-asm6-shaded-4.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-asm6-shaded/4.8/xbean-asm6-shaded-4.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/4.8/xbean-4.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/4.8/xbean-4.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.6.5/hadoop-client-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.6.5/hadoop-client-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.6.5/hadoop-project-dist-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.6.5/hadoop-project-dist-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.6.5/hadoop-project-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.6.5/hadoop-project-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.6.5/hadoop-main-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.6.5/hadoop-main-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.6.5/hadoop-common-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.6.5/hadoop-common-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.5/hadoop-annotations-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.5/hadoop-annotations-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.5/hadoop-auth-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.5/hadoop-auth-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/htrace/htrace/3.0.4/htrace-3.0.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/htrace/htrace/3.0.4/htrace-3.0.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.5/hadoop-hdfs-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.5/hadoop-hdfs-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.5/hadoop-mapreduce-client-app-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.5/hadoop-mapreduce-client-app-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.6.5/hadoop-mapreduce-client-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.6.5/hadoop-mapreduce-client-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.5/hadoop-mapreduce-client-common-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.5/hadoop-mapreduce-client-common-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.6.5/hadoop-yarn-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.6.5/hadoop-yarn-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.6.5/hadoop-yarn-client-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.6.5/hadoop-yarn-client-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.5/hadoop-mapreduce-client-core-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.5/hadoop-mapreduce-client-core-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.6.5/hadoop-yarn-server-common-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.6.5/hadoop-yarn-server-common-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.6.5/hadoop-yarn-server-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.6.5/hadoop-yarn-server-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.5/hadoop-mapreduce-client-jobclient-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.5/hadoop-mapreduce-client-jobclient-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.6.5/hadoop-yarn-server-nodemanager-2.6.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.6.5/hadoop-yarn-server-nodemanager-2.6.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.4/spark-launcher_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.4/spark-launcher_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-kvstore_2.11/2.4.4/spark-kvstore_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-kvstore_2.11/2.4.4/spark-kvstore_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-network-common_2.11/2.4.4/spark-network-common_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-network-common_2.11/2.4.4/spark-network-common_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.17.Final/netty-parent-4.1.17.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.17.Final/netty-parent-4.1.17.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/3.1.5/metrics-core-3.1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/3.1.5/metrics-core-3.1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/3.1.5/metrics-parent-3.1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/3.1.5/metrics-parent-3.1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.4.4/spark-network-shuffle_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.4.4/spark-network-shuffle_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-unsafe_2.11/2.4.4/spark-unsafe_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-unsafe_2.11/2.4.4/spark-unsafe_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.16/slf4j-parent-1.7.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.16/slf4j-parent-1.7.16.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.4.0/lz4-java-1.4.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.4.0/lz4-java-1.4.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.3.2-2/zstd-jni-1.3.2-2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.3.2-2/zstd-jni-1.3.2-2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/roaringbitmap/RoaringBitmap/0.7.45/RoaringBitmap-0.7.45.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/roaringbitmap/RoaringBitmap/0.7.45/RoaringBitmap-0.7.45.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/roaringbitmap/RoaringBitmapParent/0.7.45/RoaringBitmapParent-0.7.45.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/roaringbitmap/RoaringBitmapParent/0.7.45/RoaringBitmapParent-0.7.45.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/roaringbitmap/shims/0.7.45/shims-0.7.45.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/roaringbitmap/shims/0.7.45/shims-0.7.45.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/json4s/json4s-jackson_2.11/3.5.3/json4s-jackson_2.11-3.5.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/json4s/json4s-jackson_2.11/3.5.3/json4s-jackson_2.11-3.5.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-bom/2.4.0-b34/hk2-bom-2.4.0-b34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-bom/2.4.0-b34/hk2-bom-2.4.0-b34.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.4.0-b34/hk2-parent-2.4.0-b34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.4.0-b34/hk2-parent-2.4.0-b34.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.4.0-b34/external-2.4.0-b34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.4.0-b34/external-2.4.0-b34.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/pom/8/pom-8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/pom/8/pom-8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/project/2.22.2/project-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/project/2.22.2/project-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.5/metrics-jvm-3.1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.5/metrics-jvm-3.1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-json/3.1.5/metrics-json-3.1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-json/3.1.5/metrics-json-3.1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.5/metrics-graphite-3.1.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.5/metrics-graphite-3.1.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.7.1/jackson-module-scala_2.11-2.6.7.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.7.1/jackson-module-scala_2.11-2.6.7.1.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.7.9/jackson-module-paranamer-2.7.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.7.9/jackson-module-paranamer-2.7.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.7.9/jackson-modules-base-2.7.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.7.9/jackson-modules-base-2.7.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/razorvine/pyrolite/4.13/pyrolite-4.13.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/razorvine/pyrolite/4.13/pyrolite-4.13.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/sf/py4j/py4j/0.10.7/py4j-0.10.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/py4j/py4j/0.10.7/py4j-0.10.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-catalyst_2.11/2.4.4/spark-catalyst_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-catalyst_2.11/2.4.4/spark-catalyst_2.11-2.4.4.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.0/scala-parser-combinators_2.11-1.1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.0/scala-parser-combinators_2.11-1.1.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino/3.0.9/janino-3.0.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino/3.0.9/janino-3.0.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino-parent/3.0.9/janino-parent-3.0.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino-parent/3.0.9/janino-parent-3.0.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/commons-compiler/3.0.9/commons-compiler-3.0.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/commons-compiler/3.0.9/commons-compiler-3.0.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-core/1.5.5/orc-core-1.5.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-core/1.5.5/orc-core-1.5.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc/1.5.5/orc-1.5.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc/1.5.5/orc-1.5.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-shims/1.5.5/orc-shims-1.5.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-shims/1.5.5/orc-shims-1.5.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.10/aircompressor-0.10.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.10/aircompressor-0.10.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/airbase/78/airbase-78.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/airbase/78/airbase-78.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-mapreduce/1.5.5/orc-mapreduce-1.5.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/orc/orc-mapreduce/1.5.5/orc-mapreduce-1.5.5.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-vector/0.10.0/arrow-vector-0.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-vector/0.10.0/arrow-vector-0.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-java-root/0.10.0/arrow-java-root-0.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-java-root/0.10.0/arrow-java-root-0.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-format/0.10.0/arrow-format-0.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-format/0.10.0/arrow-format-0.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vlkan/flatbuffers/1.2.0-3f79e055/flatbuffers-1.2.0-3f79e055.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/vlkan/flatbuffers/1.2.0-3f79e055/flatbuffers-1.2.0-3f79e055.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory/0.10.0/arrow-memory-0.10.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/arrow/arrow-memory/0.10.0/arrow-memory-0.10.0.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.9/jackson-core-2.7.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.9/jackson-core-2.7.9.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc/0.7.2/hppc-0.7.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc/0.7.2/hppc-0.7.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc-parent/0.7.2/hppc-parent-0.7.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc-parent/0.7.2/hppc-parent-0.7.2.pom (0 B at 0 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-avro_2.11/2.4.4/spark-avro_2.11-2.4.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/spark/spark-avro_2.11/2.4.4/spark-avro_2.11-2.4.4.pom (0 B at 0 B/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 04:09 min
+[INFO] Finished at: 2023-10-14T18:08:11+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project hudi-learning: Could not resolve dependencies for project io.learning:hudi-learning:jar:1.0-SNAPSHOT: Failed to collect dependencies at org.apache.hive:hive-exec:jar:core:1.2.1 -> org.apache.calcite:calcite-core:jar:1.2.0-incubating -> org.pentaho:pentaho-aggdesigner-algorithm:jar:5.1.5-jhyde: Failed to read artifact descriptor for org.pentaho:pentaho-aggdesigner-algorithm:jar:5.1.5-jhyde: Could not transfer artifact org.pentaho:pentaho-aggdesigner-algorithm:pom:5.1.5-jhyde from/to conjars (http://conjars.org/repo): Connect to conjars.org:80 [conjars.org/54.235.127.59] failed: Operation timed out (Connection timed out) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

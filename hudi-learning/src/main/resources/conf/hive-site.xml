@@ -1,0 +1,46 @@
+<configuration xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <property>
+    <name>javax.jdo.option.ConnectionDriverName</name>
+    <value>com.mysql.jdbc.Driver</value>
+  </property>
+
+  <property>
+    <name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:mysql://pc-2zej09147c4yrl1xb.rwlb.rds.aliyuncs.com/db_hive?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false</value>
+  </property>
+
+  <property>
+    <name>javax.jdo.option.ConnectionUserName</name>
+    <value>dfzx_test</value>
+  </property>
+
+  <property>
+    <name>javax.jdo.option.ConnectionPassword</name>
+    <value>BAoKC_W5(KaBv8tH</value>
+  </property>
+
+  <property>
+    <name>metastore.create.as.acid</name>
+    <value>true</value>
+  </property>
+
+  <property>
+    <name>hive.metastore.uris</name>
+    <value>thrift://master-1-1.c-35f92457216d94cd.cn-beijing.emr.aliyuncs.com:9083</value>
+  </property>
+
+  <property>
+    <name>hive.metastore.warehouse.dir</name>
+    <value>/user/hive/warehouse</value>
+  </property>
+  <property>
+    <name>hive.metastore.schema.verification</name>
+    <value>false</value>
+  </property>
+  <property>
+    <name>hive.metastore.client.socket.timeout</name>
+    <value>600s</value>
+  </property>
+
+</configuration>

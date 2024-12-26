@@ -26,6 +26,7 @@
     <debezium.version>1.5.2.Final</debezium.version>
     <scope>compile</scope>
     <flink.cdc.version>2.0.1</flink.cdc.version>
+    <flink.hudi.version>0.12.0</flink.hudi.version>
   </properties>
 
   <profiles>
@@ -217,6 +218,14 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.49</version>
     </dependency>
+
+    <!-- Flink 1.15 -->
+    <dependency>
+      <groupId>org.apache.hudi</groupId>
+      <artifactId>hudi-flink1.15-bundle</artifactId>
+      <version>${flink.hudi.version}</version>
+    </dependency>
+
 
     <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
     <!--<dependency>

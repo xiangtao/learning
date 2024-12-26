@@ -12,6 +12,7 @@
     <module>hbase-learning</module>
     <module>java-io-learning</module>
     <module>flink-learning</module>
+    <module>flink-learning-2</module>
     <module>spark-learning</module>
     <module>springboot-learning</module>
     <module>thrift-learning</module>
@@ -22,6 +23,8 @@
     <module>pushgateway-learning</module>
     <module>debezium-learning</module>
     <module>binlog-parser-learning</module>
+    <module>algorithm-learning</module>
+    <module>hudi-learning</module>
   </modules>
 
   <name>learning</name>
